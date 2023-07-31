@@ -2,9 +2,9 @@ import { Section, Container } from './App.styled';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
+import { Preview } from 'components/Preview/Preview';
 import ImageGallery from 'components/ImageGallery/ImageGallery';
 import Searchbar from 'components/Searchbar/Searchbar';
-import { Preview } from 'components/Preview/Preview';
 
 export function App() {
   const [itemTag, setItemTag] = useState(null);
